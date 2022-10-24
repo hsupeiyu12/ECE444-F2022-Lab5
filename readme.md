@@ -1,6 +1,10 @@
+Emma Zhao, Wendy Wang, Mandy Hsu
 # CARTE Education Pathways
 
 This repo is a clone of https://github.com/nelaturuk/education_pathways.git
+
+<img width="1431" alt="Screen Shot 2022-10-24 at 12 57 05 PM" src="https://user-images.githubusercontent.com/103273559/197582669-c7017e10-8b0b-4fce-9d3b-f2e026ceff53.png">
+
 ## Description
 Welcome to CARTE's in-development tool for course selection at UofT. Education Pathways allows for more intelligent course searching, by matching not just the terms you search, but ones relevant to them. The more terms you search for, the more relevant your results will be! Even try searching across disciplines for the courses that best cover each.
 
