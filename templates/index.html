@@ -23,12 +23,16 @@
   <dl>
     {{ render_field(form.select) }}
     <p>
-        Restrict by one of: {{ render_field(form.divisions) }} or {{ render_field(form.departments) }} or {{ render_field(form.campuses) }}
+        Restrict by one of: <br>{{ render_field(form.divisions) }} <br>or {{ render_field(form.departments) }} <br> or {{ render_field(form.campuses) }}
     </p> 
     <p>
     {{ render_field(form.search) }}
-  </p></dl>
-  <p>{{render_field(form.top)}} <button type="button" class="btn btn-primary common-page-submit-btn">Search</button>
+    </p>
+    <p>
+    {{ render_field(form.minor_search) }}
+   </p>
+  </dl>
+  <p>{{render_field(form.top)}} <button type="submit" class="btn btn-primary common-page-submit-btn">Search</button>
 </p>
 <h3> Search for courses </h3>
 </form>

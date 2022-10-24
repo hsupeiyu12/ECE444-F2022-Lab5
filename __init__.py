@@ -27,6 +27,10 @@ class CourseSearchForm(Form):
     year_choices = [
         (t,t) for t in set(df['Course Level'].values)
     ]
+    
+    minor_choices = [
+        (t,t) for t in set(df['Course Level'].values)
+    ]
             
     top = [
         ('10','10'),
@@ -39,6 +43,7 @@ class CourseSearchForm(Form):
     departments = SelectField('Department:', choices=departments)
     campuses = SelectField('Campus:', choices=campus)
     search = StringField('Search Terms:')
+    minor_search = StringField('Minor Choices:')
 
 def create_app():
     app = Flask(__name__, instance_relative_config=True)
