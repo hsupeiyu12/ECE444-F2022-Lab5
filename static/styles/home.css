@@ -1,1 +1,8 @@
-#include <header>
+#home-page-introduction{
+	margin:40px auto;
+}
+#home-page-feedback-text{
+	margin-top: 20px;
+	font-style:italic;
+	color:rgba(53,53,53,0.705);
+}
